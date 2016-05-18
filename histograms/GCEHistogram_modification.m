@@ -1,6 +1,12 @@
 function [h,ho]  = GCEHistogram_modification(f,b,w,alpha,g) 
 %GCE Histogram Modification Algorithm
 %
+% Paper:
+% T.  Arici,  S.  Dikbas  and  Y.  Altunbasak,  “A  histogram 
+% modification  framework  and  its  application  for  image 
+% contrast  enhancement”,  IEEE  Transactions  on  image 
+% processing, Vol. 18, pp.1921 - 1935, 2009.
+%
 % SYNOPSIS: [h]  = GCEHistogram_modification(I) 
 %
 % INPUT f : input image
