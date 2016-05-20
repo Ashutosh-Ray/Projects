@@ -37,12 +37,12 @@ count = sum(htmp(:));
 ho = zeros(256,1);
 data =f(~htmp);
 
-%need to be improved
+% Histogram
 for n=1:length(data)
     ho(data(n)+1)=ho(data(n)+1)+1;
 end
 
-% normalization, need to be improved
+% normalization
 kg =k*g;
 k_prime= kg/pow2(2,round(log2(kg)));
 
