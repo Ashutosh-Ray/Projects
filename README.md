@@ -1,2 +1,2 @@
 # matlab_functions
-matlab implementation of several algorithm mostly related to signal/image processing
+matlab / python / C implementation of several algorithms mostly related to signal/image processing
